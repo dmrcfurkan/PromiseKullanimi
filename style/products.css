@@ -1,0 +1,51 @@
+h2 {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 50px;
+}
+.products-info {
+  margin: 5rem 1rem 1rem 1rem;
+  display: grid;
+  grid-gap: 3rem 3rem;
+  grid-template-columns: repeat(4, auto);
+  text-align: center;
+}
+
+.product {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+
+.product:hover .product-img {
+  transform: scale(1.05);
+}
+
+.product-title {
+  margin: 1rem 0;
+}
+
+.price {
+  margin: 1rem 0;
+}
+.product-img {
+  transition: all 300ms;
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+}
+.buy-see {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.buy {
+  cursor: pointer;
+}
+
+.see {
+  padding: 8px 5px;
+  font-size: 12px;
+  font-weight: 400;
+  cursor: pointer;
+}

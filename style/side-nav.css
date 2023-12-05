@@ -1,0 +1,29 @@
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: #111;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 0px;
+  height: 100%;
+  z-index: 1;
+  padding-top: 2rem;
+  overflow-x: hidden;
+  transition: 500ms;
+}
+.side-nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 8px 8px 32px;
+  transition: color 0.5s;
+}
+.closebtn {
+  position: absolute;
+  right: 25px;
+  font-size: 30px;
+}
+.side-nav a:hover {
+  color: #f26522;
+}

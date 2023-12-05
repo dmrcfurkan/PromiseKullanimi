@@ -1,0 +1,26 @@
+header {
+  background-color: #2b2a29;
+  display: flex;
+  clip-path: polygon(0 0, 100% 0, 96% 100%, 3% 100%);
+  height: 4.5rem;
+  margin: 0px 3.5rem 0 3.5rem;
+}
+
+header nav {
+  margin: auto;
+}
+header ul {
+  color: #f1f1f1;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  list-style: none;
+}
+header li {
+  cursor: pointer;
+}
+header li:hover {
+  color: #f26522;
+  transition: 300ms;
+}
